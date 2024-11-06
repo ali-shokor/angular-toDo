@@ -20,7 +20,7 @@ export class UserComponent {
 
 
   get imagePath() {
-      return "../../assets/characters/" + this.user.avatar
+      return "/assets/characters/" + this.user.avatar
     }
 
   onPressed() {
